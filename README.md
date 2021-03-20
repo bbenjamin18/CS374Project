@@ -18,5 +18,6 @@ Noelle is a college student who is demisexual and demiromantic. Because of this,
  
 **How is this solution unique? How does it relate to existing solutions on the market? What are three solutions similar or related to what you want to do in the Google Play Store? Do the research and know that you are probably not reinventing the wheel! Present these three solutions, a description and how they compare to yours. Provide screenshots of the existing solutions.**
 This solution is unique because it allows users to identify on the asexuality spectrum, which isn’t a part of many dating apps. Additionally, the chat feature will allow users to talk to more people at once, which alleviates the pressure of talking to people one on one. Once the user is comfortable with someone they meet in the group, they can then communicate with them privately outside of it.
+
 **What technologies, APIs etc will you be using to develop this solution? Provide links and explanations.**
 Android studios (https://developer.android.com/studio), firebase, (https://firebase.google.com/)...  More will be added and expanded on as we find, learn, and apply them.
