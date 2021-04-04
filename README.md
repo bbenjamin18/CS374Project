@@ -2,8 +2,8 @@
 Anna Spreitzer, Brittany Benjamin,  Marcus Wong
 March 3rd 2021
 
+------
 
-======
 ## Mobile App Prototype Proposal
 
 **What is/are the problem/s you want to solve? Please provide background based on research**
@@ -23,8 +23,25 @@ This solution is unique because it allows users to identify on the asexuality sp
 
 **What technologies, APIs etc will you be using to develop this solution? Provide links and explanations.**
 Android studios (https://developer.android.com/studio), firebase, (https://firebase.google.com/)...  More will be added and expanded on as we find, learn, and apply them.
-======
+
+------
 
 ## Design Prototype
 
-![alt text](https://github.com/bbenjamin18/CS374Project/blob//SignInPage.jpg?raw=true)
+![Log In Page](https://github.com/bbenjamin18/CS374Project/blob/main/design/images/SignInPage.png)
+
+![Recommendation Page](https://github.com/bbenjamin18/CS374Project/blob/main/design/images/Recommendation%20Page.png)
+
+![Interest Page](https://github.com/bbenjamin18/CS374Project/blob/main/design/images/Interest%20Page.png)
+
+![Interest Page Expansion](https://github.com/bbenjamin18/CS374Project/blob/main/design/images/Interest%20Page%20-%20Expansion.png)
+
+![Interest Page Group Chat](https://github.com/bbenjamin18/CS374Project/blob/main/design/images/Interest%20Page%20-%20Group%20Chat.png)
+
+![Direct Messages](https://github.com/bbenjamin18/CS374Project/blob/main/design/images/Direct%20Message%20Page.png)
+
+![Direct Messages Chat Box](https://github.com/bbenjamin18/CS374Project/blob/main/design/images/Direct%20Message%20Page%20-%20Chat%20Box.png)
+
+![Profile Page](https://github.com/bbenjamin18/CS374Project/blob/main/design/images/Profile%20Page.png)
+
+![Video](https://github.com/bbenjamin18/CS374Project/blob/main/design/video/Design_Prototype.mov)
