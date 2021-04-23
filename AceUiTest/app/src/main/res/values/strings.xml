@@ -6,4 +6,7 @@
     <string name="messages">Messages</string>
     <string name="recommendations">Recommendations</string>
     <string name="new_message">New Message</string>
+    <string name="matches">Matches</string>
+    <string name="match">Match</string>
+    <string name="email">Email</string>
 </resources>
