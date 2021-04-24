@@ -18,7 +18,6 @@
         </activity>
         <activity android:name=".LoginActivity"
             android:parentActivityName=".StartActivity"/>
-        <activity android:name=".PrimaryActivity" />
         <activity android:name=".RegisterActivity"
             android:parentActivityName=".StartActivity"/>
         <activity android:name=".MainActivity">
