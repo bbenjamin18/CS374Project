@@ -1,9 +1,11 @@
 <resources>
-    <string name="app_name">Navtest1</string>
+    <string name="app_name">Ace</string>
     <string name="topTitle">Ace</string>
     <string name="profile">Profile</string>
     <string name="interests">Interests</string>
     <string name="messages">Messages</string>
     <string name="recommendations">Recommendations</string>
     <string name="new_message">New Message</string>
+    <string name="username">Name</string>
+    <string name="message">Message</string>
 </resources>
