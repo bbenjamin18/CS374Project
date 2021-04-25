@@ -11,6 +11,7 @@ public class RegisterActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_register);
 <<<<<<< HEAD
+<<<<<<< HEAD
 
         Toolbar toolbar = findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
@@ -83,6 +84,8 @@ public class RegisterActivity extends AppCompatActivity {
                         }
                     }
                 });
+=======
+>>>>>>> parent of cd4fd38 (Add Login and Register Functions)
 =======
 >>>>>>> parent of cd4fd38 (Add Login and Register Functions)
     }
