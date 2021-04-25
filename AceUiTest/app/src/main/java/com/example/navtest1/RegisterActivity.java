@@ -1,8 +1,11 @@
 package com.example.navtest1;
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.appcompat.widget.Toolbar;
 
 import android.os.Bundle;
+
+import com.google.firebase.auth.FirebaseAuth;
 
 public class RegisterActivity extends AppCompatActivity {
 
@@ -10,8 +13,6 @@ public class RegisterActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_register);
-<<<<<<< HEAD
-<<<<<<< HEAD
 
         Toolbar toolbar = findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
@@ -84,9 +85,5 @@ public class RegisterActivity extends AppCompatActivity {
                         }
                     }
                 });
-=======
->>>>>>> parent of cd4fd38 (Add Login and Register Functions)
-=======
->>>>>>> parent of cd4fd38 (Add Login and Register Functions)
     }
 }
