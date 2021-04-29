@@ -2,6 +2,8 @@ package com.example.navtest1;
 
 import android.os.Bundle;
 import android.view.MenuItem;
+import android.view.View;
+import android.widget.Button;
 import android.widget.TextView;
 
 import androidx.annotation.NonNull;
@@ -27,6 +29,7 @@ public class MainActivity extends AppCompatActivity {
     DatabaseReference reference; //temp
 
     BottomNavigationView bottomNavigation;
+    Button editProfile;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -39,6 +42,7 @@ public class MainActivity extends AppCompatActivity {
 
         profile_image = findViewById(R.id.profile_image); // temp
         username = findViewById(R.id.username);// temp
+        editProfile = findViewById(R.id.homeEdit);
 
         firebaseUser = FirebaseAuth.getInstance().getCurrentUser(); //temp
         reference = FirebaseDatabase.getInstance().getReference("Users").child(firebaseUser.getUid()); //temp
@@ -150,4 +154,11 @@ public class MainActivity extends AppCompatActivity {
                     return false;
                 }
             };
+
+    public void editProflie(View view) {
+        setContentView(R.layout.fragment_editprofile);
+    }
+
+    public void editSettings(View view) {
+    }
 }
