@@ -4,6 +4,7 @@ import android.os.Bundle;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
+import android.widget.NumberPicker;
 import android.widget.TextView;
 
 import androidx.annotation.NonNull;
@@ -12,6 +13,7 @@ import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentTransaction;
 
 import com.google.android.material.bottomnavigation.BottomNavigationView;
+import com.google.android.material.chip.Chip;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
 import com.google.firebase.database.DatabaseReference;
@@ -30,6 +32,16 @@ public class MainActivity extends AppCompatActivity {
 
     BottomNavigationView bottomNavigation;
     Button editProfile;
+    NumberPicker numberPicker;
+
+    Chip chip_one;
+    Chip chip_two;
+    Chip chip_three;
+    Chip chip_four;
+    Chip chip_five;
+    Chip chip_six;
+    Chip chip_seven;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -44,8 +56,11 @@ public class MainActivity extends AppCompatActivity {
         username = findViewById(R.id.username);// temp
         editProfile = findViewById(R.id.homeEdit);
 
+
         firebaseUser = FirebaseAuth.getInstance().getCurrentUser(); //temp
         reference = FirebaseDatabase.getInstance().getReference("Users").child(firebaseUser.getUid()); //temp
+
+
 
         /*reference.addValueEventListener(new ValueEventListener() {
             @Override
@@ -160,5 +175,38 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void editSettings(View view) {
+    }
+
+    public void setAge(View view) {
+        setContentView(R.layout.set_age);
+        numberPicker = findViewById(R.id.numPicker);
+        numberPicker.setMinValue(18);
+        numberPicker.setMaxValue(100);
+    }
+
+    public void setGender(View view) {
+        setContentView(R.layout.set_gender);
+        chip_one = (Chip)findViewById(R.id.chip1);
+        chip_two = (Chip)findViewById(R.id.chip2);
+        chip_three = (Chip)findViewById(R.id.chip3);
+        chip_four = (Chip)findViewById(R.id.chip4);
+        chip_five = (Chip)findViewById(R.id.chip5);
+        chip_six = (Chip)findViewById(R.id.chip6);
+        chip_seven = (Chip)findViewById(R.id.chip7);
+    }
+
+    public void setSexualOrientation(View view) {
+    }
+
+    public void setLocation(View view) {
+    }
+
+    public void setPoliticalViews(View view) {
+    }
+
+    public void setHeight(View view) {
+    }
+
+    public void setReligiousViews(View view) {
     }
 }

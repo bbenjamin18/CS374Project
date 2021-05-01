@@ -28,12 +28,13 @@
             />
 
         <com.rengwuxian.materialedittext.MaterialEditText
+            android:id="@+id/username"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:id="@+id/username"
             android:layout_margin="10dp"
-            app:met_floatingLabel="normal"
-            android:hint="Username"/>
+            android:hint="Name"
+            android:text="@string/username"
+            app:met_floatingLabel="normal" />
 
         <com.rengwuxian.materialedittext.MaterialEditText
             android:layout_width="match_parent"

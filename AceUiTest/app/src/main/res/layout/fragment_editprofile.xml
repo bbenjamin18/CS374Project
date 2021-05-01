@@ -25,7 +25,7 @@
                 android:layout_marginBottom="2dp"
                 android:padding="20dp"
                 android:text="Name"
-                android:textSize="15sp" />
+                android:textSize="15sp"/>
 
             <TextView
                 android:id="@+id/profile_age"
@@ -33,7 +33,8 @@
                 android:layout_height="wrap_content"
                 android:padding="20dp"
                 android:text="Age"
-                android:textSize="15sp" />
+                android:textSize="15sp"
+                android:onClick="setAge"/>
 
             <TextView
                 android:id="@+id/profile_gender"
@@ -41,7 +42,8 @@
                 android:layout_height="wrap_content"
                 android:padding="20dp"
                 android:text="Gender"
-                android:textSize="15sp" />
+                android:textSize="15sp"
+                android:onClick="setGender"/>
 
             <TextView
                 android:id="@+id/profile_sexual_orientation"
@@ -49,7 +51,8 @@
                 android:layout_height="wrap_content"
                 android:padding="20dp"
                 android:text="Sexual Orientation"
-                android:textSize="15sp" />
+                android:textSize="15sp"
+                android:onClick="setSexualOrientation"/>
 
             <TextView
                 android:id="@+id/profile_location"
@@ -57,7 +60,8 @@
                 android:layout_height="wrap_content"
                 android:padding="20dp"
                 android:text="Location"
-                android:textSize="15sp" />
+                android:textSize="15sp"
+                android:onClick="setLocation"/>
 
             <TextView
                 android:id="@+id/profile_politics"
@@ -65,7 +69,8 @@
                 android:layout_height="wrap_content"
                 android:padding="20dp"
                 android:text="Political Views"
-                android:textSize="15sp" />
+                android:textSize="15sp"
+                android:onClick="setPoliticalViews"/>
 
             <TextView
                 android:id="@+id/profile_height"
@@ -73,7 +78,8 @@
                 android:layout_height="wrap_content"
                 android:padding="20dp"
                 android:text="Height"
-                android:textSize="15sp" />
+                android:textSize="15sp"
+                android:onClick="setHeight"/>
 
             <TextView
                 android:id="@+id/profile_religious_views"
@@ -81,7 +87,8 @@
                 android:layout_height="wrap_content"
                 android:padding="20dp"
                 android:text="Religious Views"
-                android:textSize="15sp" />
+                android:textSize="15sp"
+                android:onClick="setReligiousViews"/>
         </LinearLayout>
 
     </RelativeLayout>
