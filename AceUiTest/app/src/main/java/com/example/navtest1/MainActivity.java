@@ -171,7 +171,10 @@ public class MainActivity extends AppCompatActivity {
             };
 
     public void editProflie(View view) {
-        setContentView(R.layout.fragment_editprofile);
+
+        try {
+            setContentView(R.layout.fragment_editprofile);
+        }catch (Exception e){};
     }
 
     public void editSettings(View view) {
@@ -185,14 +188,17 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void setGender(View view) {
-        setContentView(R.layout.set_gender);
-        chip_one = (Chip)findViewById(R.id.chip1);
-        chip_two = (Chip)findViewById(R.id.chip2);
-        chip_three = (Chip)findViewById(R.id.chip3);
-        chip_four = (Chip)findViewById(R.id.chip4);
-        chip_five = (Chip)findViewById(R.id.chip5);
-        chip_six = (Chip)findViewById(R.id.chip6);
-        chip_seven = (Chip)findViewById(R.id.chip7);
+
+        try {
+            setContentView(R.layout.set_gender);
+            chip_one = (Chip) findViewById(R.id.chip1);
+            chip_two = (Chip) findViewById(R.id.chip2);
+            chip_three = (Chip) findViewById(R.id.chip3);
+            chip_four = (Chip) findViewById(R.id.chip4);
+            chip_five = (Chip) findViewById(R.id.chip5);
+            chip_six = (Chip) findViewById(R.id.chip6);
+            chip_seven = (Chip) findViewById(R.id.chip7);
+        }catch (Exception e){};
     }
 
     public void setSexualOrientation(View view) {
